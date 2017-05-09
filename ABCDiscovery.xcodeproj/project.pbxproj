@@ -30,7 +30,6 @@
 		0D68A2831EB3330200A1C0DF /* igloo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A27A1EB3330200A1C0DF /* igloo.jpg */; };
 		0D68A2841EB3330200A1C0DF /* jam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A27B1EB3330200A1C0DF /* jam.jpg */; };
 		0D68A2851EB3330200A1C0DF /* kite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A27C1EB3330200A1C0DF /* kite.png */; };
-		0D68A2861EB3330200A1C0DF /* lamb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A27D1EB3330200A1C0DF /* lamb.jpg */; };
 		0D68A2881EB334CB00A1C0DF /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2871EB334CB00A1C0DF /* fish.png */; };
 		0D68A2971EB6E21A00A1C0DF /* lamb.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2891EB6E21A00A1C0DF /* lamb.png */; };
 		0D68A2981EB6E21A00A1C0DF /* melon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A28A1EB6E21A00A1C0DF /* melon.png */; };
@@ -50,8 +49,12 @@
 		0D68A2A81EB7216800A1C0DF /* MainView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2A71EB7216800A1C0DF /* MainView-iPad.xib */; };
 		0D68A2AA1EB7240600A1C0DF /* TraceView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2A91EB7240600A1C0DF /* TraceView-iPad.xib */; };
 		0D68A2AC1EB8613C00A1C0DF /* MainItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2AB1EB8613C00A1C0DF /* MainItem.png */; };
+		0D68A2AE1EBFF4E100A1C0DF /* MainBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2AD1EBFF4E100A1C0DF /* MainBG.jpg */; };
+		0D68A2B21EBFF89100A1C0DF /* SubBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2B11EBFF89100A1C0DF /* SubBG.jpg */; };
+		0D68A2B41EBFFD5200A1C0DF /* subDrawBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D68A2B31EBFFD5200A1C0DF /* subDrawBtn.png */; };
 		0DD3EF281EAECDAC00A0AFC6 /* TraceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3EF271EAECDAC00A0AFC6 /* TraceViewController.swift */; };
 		0DD3EF2A1EAED37700A0AFC6 /* TraceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD3EF291EAED37700A0AFC6 /* TraceView.xib */; };
+		52D17A671EBB140200AFF416 /* ImagesConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52D17A661EBB140200AFF416 /* ImagesConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +95,6 @@
 		0D68A27A1EB3330200A1C0DF /* igloo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = igloo.jpg; sourceTree = "<group>"; };
 		0D68A27B1EB3330200A1C0DF /* jam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jam.jpg; sourceTree = "<group>"; };
 		0D68A27C1EB3330200A1C0DF /* kite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kite.png; sourceTree = "<group>"; };
-		0D68A27D1EB3330200A1C0DF /* lamb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamb.jpg; sourceTree = "<group>"; };
 		0D68A2871EB334CB00A1C0DF /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
 		0D68A2891EB6E21A00A1C0DF /* lamb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamb.png; sourceTree = "<group>"; };
 		0D68A28A1EB6E21A00A1C0DF /* melon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melon.png; sourceTree = "<group>"; };
@@ -112,8 +114,12 @@
 		0D68A2A71EB7216800A1C0DF /* MainView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainView-iPad.xib"; sourceTree = "<group>"; };
 		0D68A2A91EB7240600A1C0DF /* TraceView-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TraceView-iPad.xib"; sourceTree = "<group>"; };
 		0D68A2AB1EB8613C00A1C0DF /* MainItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainItem.png; sourceTree = "<group>"; };
+		0D68A2AD1EBFF4E100A1C0DF /* MainBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainBG.jpg; sourceTree = "<group>"; };
+		0D68A2B11EBFF89100A1C0DF /* SubBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SubBG.jpg; sourceTree = "<group>"; };
+		0D68A2B31EBFFD5200A1C0DF /* subDrawBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subDrawBtn.png; sourceTree = "<group>"; };
 		0DD3EF271EAECDAC00A0AFC6 /* TraceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraceViewController.swift; sourceTree = "<group>"; };
 		0DD3EF291EAED37700A0AFC6 /* TraceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraceView.xib; sourceTree = "<group>"; };
+		52D17A661EBB140200AFF416 /* ImagesConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImagesConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,9 @@
 		0D486AA61EADBEA50037FD59 /* ABCDiscovery */ = {
 			isa = PBXGroup;
 			children = (
+				0D68A2B31EBFFD5200A1C0DF /* subDrawBtn.png */,
+				0D68A2B11EBFF89100A1C0DF /* SubBG.jpg */,
+				0D68A2AD1EBFF4E100A1C0DF /* MainBG.jpg */,
 				0D68A2AB1EB8613C00A1C0DF /* MainItem.png */,
 				0D68A2A51EB6E2CA00A1C0DF /* pencil.png */,
 				0D68A2891EB6E21A00A1C0DF /* lamb.png */,
@@ -180,7 +189,6 @@
 				0D68A27A1EB3330200A1C0DF /* igloo.jpg */,
 				0D68A27B1EB3330200A1C0DF /* jam.jpg */,
 				0D68A27C1EB3330200A1C0DF /* kite.png */,
-				0D68A27D1EB3330200A1C0DF /* lamb.jpg */,
 				0D68A2731EB1A2D100A1C0DF /* banana.png */,
 				0D68A2711EB1A12600A1C0DF /* apple.png */,
 				0D68A2631EB0419700A1C0DF /* brushExLarge.png */,
@@ -200,6 +208,7 @@
 				0D486AAE1EADBEA50037FD59 /* Assets.xcassets */,
 				0D486AB01EADBEA50037FD59 /* LaunchScreen.storyboard */,
 				0D486AB31EADBEA50037FD59 /* Info.plist */,
+				52D17A661EBB140200AFF416 /* ImagesConfig.plist */,
 			);
 			path = ABCDiscovery;
 			sourceTree = "<group>";
@@ -306,12 +315,14 @@
 				0D68A2801EB3330200A1C0DF /* egg.png in Resources */,
 				0DD3EF2A1EAED37700A0AFC6 /* TraceView.xib in Resources */,
 				0D486AC81EADD3AA0037FD59 /* MainView.xib in Resources */,
+				52D17A671EBB140200AFF416 /* ImagesConfig.plist in Resources */,
 				0D68A2AC1EB8613C00A1C0DF /* MainItem.png in Resources */,
 				0D68A2691EB0419700A1C0DF /* brushExSmall.png in Resources */,
 				0D68A29D1EB6E21A00A1C0DF /* sun.png in Resources */,
 				0D68A29F1EB6E21A00A1C0DF /* umbrella.png in Resources */,
 				0D68A2811EB3330200A1C0DF /* guitar.png in Resources */,
 				0D68A2A01EB6E21A00A1C0DF /* violin.png in Resources */,
+				0D68A2AE1EBFF4E100A1C0DF /* MainBG.jpg in Resources */,
 				0D68A2971EB6E21A00A1C0DF /* lamb.png in Resources */,
 				0D68A2A41EB6E21A00A1C0DF /* zebra.png in Resources */,
 				0D68A2AA1EB7240600A1C0DF /* TraceView-iPad.xib in Resources */,
@@ -323,7 +334,6 @@
 				0D68A27E1EB3330200A1C0DF /* cookie.png in Resources */,
 				0D68A29C1EB6E21A00A1C0DF /* rabbit.png in Resources */,
 				0D68A2881EB334CB00A1C0DF /* fish.png in Resources */,
-				0D68A2861EB3330200A1C0DF /* lamb.jpg in Resources */,
 				0D486AAF1EADBEA50037FD59 /* Assets.xcassets in Resources */,
 				0D68A2A61EB6E2CA00A1C0DF /* pencil.png in Resources */,
 				0D68A2851EB3330200A1C0DF /* kite.png in Resources */,
@@ -331,6 +341,8 @@
 				0D68A26A1EB0419700A1C0DF /* brushLarge.png in Resources */,
 				0D68A2991EB6E21A00A1C0DF /* net.gif in Resources */,
 				0D68A2741EB1A2D100A1C0DF /* banana.png in Resources */,
+				0D68A2B41EBFFD5200A1C0DF /* subDrawBtn.png in Resources */,
+				0D68A2B21EBFF89100A1C0DF /* SubBG.jpg in Resources */,
 				0D68A2A21EB6E21A00A1C0DF /* xylophone.jpg in Resources */,
 				0D68A2981EB6E21A00A1C0DF /* melon.png in Resources */,
 				0D68A2821EB3330200A1C0DF /* horse.png in Resources */,

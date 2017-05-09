@@ -137,7 +137,7 @@ class TraceViewController: UIViewController {
     func setView() -> Void {
         canvas.image = UIImage()
         letterImage.image = UIImage()
-        letterImage.image = letterImage.image!.drawTextWithOptions(rect: letterImage.frame, text: NSString(string: letter), font: currentFont, fontSize: 150, alpha: 0.8) // drawText(rect: letterImage.frame, view: letterImage.image!, text: NSString(string: letter))
+        letterImage.image = letterImage.image!.drawTextWithOptions(rect: letterImage.frame, text: NSString(string: letter), font: currentFont, fontSize: 150, alpha: 0.9) // drawText(rect: letterImage.frame, view: letterImage.image!, text: NSString(string: letter))
         setStrokeSizeButton(name: "brushExSmall.png", button: exSmallButton)
         setStrokeSizeButton(name: "brushSmall.png", button: smallButton)
         setStrokeSizeButton(name: "brushMedium.png", button: mediumButton)

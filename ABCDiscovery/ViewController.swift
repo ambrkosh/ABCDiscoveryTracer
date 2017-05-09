@@ -60,23 +60,33 @@ class ViewController: UIViewController {
     }
     
     func getFrameForItem(item: [Int:UIImage]) -> CGRect {
-        return CGRect(x: self.scrollView.frame.width / 4, y: (CGFloat(item.first!.key) * (self.scrollView.frame.height / 4 + yPadding)), width: self.scrollView.frame.width / 2, height: self.scrollView.frame.height / 4)
+        return CGRect(x: self.scrollView.frame.width / 4, y: (CGFloat(item.first!.key) * (self.scrollView.frame.height / 4 + yPadding) + 40), width: self.scrollView.frame.width / 2, height: self.scrollView.frame.height / 4)
     }
     
     func getButtonList() -> [String:[Int:UIImage]] {
-        return ["A a":[0:UIImage(named: "apple.png")!], "B b":[1:UIImage(named: "banana.png")!],
-                "C c":[2:UIImage(named: "cookie.png")!], "D d":[3:UIImage(named: "duck.png")!],
-                "E e":[4:UIImage(named: "egg.png")!], "F f":[5:UIImage(named: "fish.png")!],
-                "G g":[6:UIImage(named: "guitar.png")!], "H h":[7:UIImage(named: "horse.png")!],
-                "I i":[8:UIImage(named: "igloo.jpg")!], "J j":[9:UIImage(named: "jam.jpg")!],
-                "K k":[10:UIImage(named: "kite.png")!], "L l":[11:UIImage(named: "lamb.png")!],
-                "M m":[12:UIImage(named: "melon.png")!], "N n":[13:UIImage(named: "net.gif")!],
-                "O o":[14:UIImage(named: "onion.png")!], "P p":[15:UIImage(named: "pencil.png")!],
-                "Q q":[16:UIImage(named: "question.jpg")!], "R r":[17:UIImage(named: "rabbit.png")!],
-                "S s":[18:UIImage(named: "sun.png")!], "T t":[19:UIImage(named: "tent.png")!],
-                "U u":[20:UIImage(named: "umbrella.png")!], "V v":[21:UIImage(named: "violin.png")!],
-                "W w":[22:UIImage(named: "watermelon.png")!], "X x":[23:UIImage(named: "xylophone.jpg")!],
-                "Y y":[24:UIImage(named: "yacht.png")!], "Z z":[25:UIImage(named: "zebra.png")!]]
+        if let url = Bundle.main.url(forResource: "ImagesConfig", withExtension: "plist") {
+            do {
+                let data: Data = try Data(contentsOf: url)
+                let dict: [String:String] = try PropertyListSerialization.propertyList(from: data, options: [], format: nil) as! [String:String]
+                let result: [String:[Int:UIImage]] = [:]
+                
+                let sortedList = dict.sorted(by: { a, b in
+                    return a.key < b.key
+                }).enumerated().map({ i, v in
+                    return [v.key:[i:UIImage(named: v.value)!]]
+                }).reduce(result, { r, v in
+                    var myResult = r
+                    myResult[v.first!.key] = v.first!.value
+                    return myResult
+                })
+                return sortedList
+            } catch {
+                print(error)
+                return [:]
+            }
+        } else {
+            return [:]
+        }
     }
     
     func generateButtons(list: [String:[Int:UIImage]]) -> [CustomUIButton] {

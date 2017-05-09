@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A a</key>
+	<string>apple.png</string>
+	<key>B b</key>
+	<string>banana.png</string>
+	<key>C c</key>
+	<string>cookie.png</string>
+	<key>D d</key>
+	<string>duck.png</string>
+	<key>E e</key>
+	<string>egg.png</string>
+	<key>F f</key>
+	<string>fish.png</string>
+	<key>G g</key>
+	<string>guitar.png</string>
+	<key>H h</key>
+	<string>horse.png</string>
+	<key>I i</key>
+	<string>igloo.jpg</string>
+	<key>J j</key>
+	<string>jam.jpg</string>
+	<key>K k</key>
+	<string>kite.png</string>
+	<key>L l</key>
+	<string>lamb.png</string>
+	<key>M m</key>
+	<string>melon.png</string>
+	<key>N n</key>
+	<string>net.gif</string>
+	<key>O o</key>
+	<string>onion.png</string>
+	<key>P p</key>
+	<string>pencil.png</string>
+	<key>Q q</key>
+	<string>question.jpg</string>
+	<key>R r</key>
+	<string>rabbit.png</string>
+	<key>S s</key>
+	<string>sun.png</string>
+	<key>T t</key>
+	<string>tent.png</string>
+	<key>U u</key>
+	<string>umbrella.png</string>
+	<key>V v</key>
+	<string>violin.png</string>
+	<key>W w</key>
+	<string>watermelon.png</string>
+	<key>X x</key>
+	<string>xylophone.jpg</string>
+	<key>Y y</key>
+	<string>yacht.png</string>
+	<key>Z z</key>
+	<string>zebra.png</string>
+</dict>
+</plist>
